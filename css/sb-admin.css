@@ -1,6 +1,16 @@
 * {
    margin: 0;
    padding: 0;
+   letter-spacing: 0 !important;
+}
+.form-txt {
+   border: 0;
+   border-radius: 4px;
+   color: #fff;
+   height: 53px;
+   line-height: 50px;
+   padding: 10px 10px 0;
+   width: 100%;
 }
 body {
    background-color: #f8f8f8;
@@ -35,9 +45,18 @@ body {
    line-height: 1.33;
    border-radius: 6px;
 }
-h1 {
+.login .panel-heading h2 {
    color: #f8f8f8;
 }
+
+.login {
+   margin: 0 auto -236px;
+   min-height: 100vh;
+   background-color: transparent;
+   max-width: 552px;
+   padding-top: 150px;
+}
+
 .panel-heading {
    background-color: rgba(32, 31, 31, 0.75);
    border-radius: 4px;
@@ -46,13 +65,14 @@ h1 {
    flex-direction: column;
    margin: 0;
    min-height: 515px;
-   padding: 20px 0 30px;
+   /* padding: 60px 68px 40px; */
    width: 100%;
 }
-
-/* .login {
-   margin: 0 auto 236px;
-   min-height: 27vh;
-   background-color: transparent;
-   max-width: 474px;
-} */
+.row h1 {
+   color: #f8f8f8;
+}
+.panel-body {
+   margin-bottom: 90px;
+   /* min-height: 625px; */
+   padding: 60px 68px 40px;
+}
